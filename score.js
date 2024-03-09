@@ -11,7 +11,7 @@ function displayScore() {
   const playAgainBtn = document.getElementById("play-again-button");
   if (playAgainBtn) {
     playAgainBtn.addEventListener("click", function () {
-      window.location.href = "./index.html";
+      window.location.href = "./game.html";
     });
   }
   
